@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Балтийская дорога Гатчина-Палдиски</title>
+<link rel="icon" href="images/favicon.ico">
+
+<style>
+body{
+    font-family: Georgia, serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.2;
+    background: #f4ecd8;
+    color: #096030;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: #096030;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #cfc7a5;
+    padding-bottom: 5px;
+}
+
+p{
+    text-indent: 1.5em;
+}
+body a{
+    color: #096030;
+    text-decoration: none;
+}
+
+body a:hover{
+    text-decoration: underline;
+}
+
+
+body a:hover{
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background: linear-gradient(to bottom, #2bbf5a, #0f6a2f);
+    padding: 8px 0;
+    border-bottom: 2px solid #0b4f23;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu a{
+    color: #eaffea;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background: rgba(255,255,255,0.15);
+    border-radius: 3px;
+}
+
+.menu a.active{
+    background: #0b4f23;
+    border-radius: 3px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(to bottom, #2bbf5a, #15803d);
+    border: 1px solid #0b4f23;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    min-width: 200px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 6px 12px;
+    font-weight: normal;
+}
+
+.submenu li a:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .submenu{
+    display: block;
+}
+
+.img-left{
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.img-center{
+    text-align: center;
+    margin: 25px 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.caption{
+    font-size: 0.9em;
+    color: #096030;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: gray;
+    text-align: right;
+}
+
+@media (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.content ul li a {
+    display: block;
+    padding: 8px 12px;
+    background: #e0d8b8;
+    border: 1px solid #cfc7a5;
+    border-left: 4px solid #096030;
+    border-radius: 4px;
+    color: #096030;
+}
+/* КРАСИВЫЙ СПИСОК */
+.nice-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.nice-list li {
+    margin: 8px 0;
+}
+
+.nice-list li a {
+    display: block;
+    padding: 10px 12px;
+    background: #e0d8b8;
+    border: 1px solid #cfc7a5;
+    border-left: 4px solid #096030;
+    border-radius: 4px;
+    color: #096030;
+    text-decoration: none;
+}
+
+.nice-list li a:hover {
+    background: #d6cfae;
+}
+.menu a:hover{
+    background: rgba(255,255,255,0.15);
+    border-radius: 3px;
+    text-decoration: underline;
+}
+nav .menu a {
+    color: #eaffea !important;
+}
+
+/* МЕНЮ — ФИНАЛЬНАЯ ВЕРСИЯ */
+nav .menu a {
+    color: #eaffea !important;
+    background: transparent !important;
+}
+
+nav .menu a:hover {
+    background: rgba(255,255,255,0.2) !important;
+    text-decoration: none;
+}
+
+nav .menu a.active {
+    background: #0b4f23 !important;
+}
+.caption {
+    text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="menu">
+        
+        
+        <li><a href="../../index.html">Главная</a></li>
+        <li><a href="../../02_History/History.html">Времена</a></li>
+        <li><a href="../../01_Settlements/Settlments.html">Места</a></li>
+        <li><a href="../../03_Memories/Reminiscence.html">Воспоминания</a></li>
+        <li><a href="../../04_Amazing/Amazing.html">Наблюдения</a></li>
+        <li><a href="../../Contacts/Contacts.html">Контакты</a></li>
+        </ul>
+        </nav>
+
+<hr>
+
+<h1>Балтийская дорога</h1>
+
+<!-- ПЕРВАЯ КАРТИНКА -->
+
+<div class="img-left">
+    <img src="images/Parovoz.jpg" width="250"
+         alt="Балтийский путь"
+         title="Железная дорога">
+         <div class="caption {
+            text-align: center;
+        }"></div>
+    
+</div>
+
+<p>
+    Санкт-Петербург - порт замерзающий, потому мореплавание в зимний период было и есть задачей трудной. Финский залив замерзает с конца ноября до середины марта, начиная с вершины (восточная часть) к горлу (западная часть). Сплошной лед для судов следующих в город, как правило, начинается от траверза Таллина. Плотность льда нарастает в направлении Невской губы, соответственно. Ледовая проводка дорога и связана с рисками. Естественно желание иметь если не полностью свободный ото льда порт, то располагающийся в месте, сокращающем ледовую проводку. 
+
+
+   
+</p>
+
+<p></p>
+
+
+<!-- СБРОС ОБТЕКАНИЯ -->
+<div class="clear"></div>
+
+<!-- ДАЛЬШЕ ВСЁ НОРМАЛЬНО -->
+
+<p>
+         
+    
+Потому, в последнее время, в крайне юго-западной российской части залива, стремительно строится  порт Усть-Луга. Кроме того, наличие такого порта разгружает город от транзитного грузопотока.
+<p>       
+    Но любопытна и не совсем понятна история проблемы, очевидной с начала строительства города.
+    Через 15 лет после основания Санкт-Петербурга, Петр I на месте небольшого шведского поселения с крепостью Rågervik закладывает город-порт с защитным молом, купеческой гаванью и адмиралтейской верфью названный Рогервик (1715 год). В дальнейшем город будет называться Балтийский порт (с 1762 г), Балтиски (с 1922 г), Палдиски (с 1934г). Очевидно, что Петр имеет виды на новый порт как военную базу и торговую артерию. Мало, что незамерзающий, еще и самый близкий к Европе.</p>
+    <p>
+    В 1870 году к Балтийскому порту была протянута частная - Балтийская железная дорога. Поскольку дорога частная, очевидны ее цели - получение прибыли. Из этого следует, что движение грузов через Балтийский порт было коммерчески выгодным, полсотни километров лишних путей от Таллина в 1870 году тянуть "сдуру" не стали бы. В 1893 году дорога выкупается у акционеров и принимается в казну.</p>
+    
+ 
+
+        <div class="img-center">
+            <img src="images/Balt_rail.jpg" width="700" 
+                 alt="Обходной путь"
+                 title="Минуя морской путь">>
+            <div class="caption"></div>
+        </div>
+
+    </p>
+    <p>   В 1914 году начинается мировая война. С 1922 по 1939 год Эстония - независимое государство. С 1941 по 1945 год вторая мировая война. Понятно, в этот период о развитии порта Палдиски и коммуникаций к нему речи не шло.
+        В советский период канал грузоперевозок,  как способ обхода ледовой пробки, не используется. В 1962 году в Палдиски открывается крупнейший в Советском союзе центр подготовки экипажей атомного подводного флота с двумя ядерными реакторами на территории. Город опоясывается колючей проволокой и сторожевыми вышками. Какие мотивы были организовывать такой центр на самых западных рубежах страны в непосредственной близости к вероятному противнику, да еще с ядерными реакторами в центре Балтийского моря, спросить не у кого. В 1994 году, с распадом Союза и восстановлением независимости Эстонии, последний российский корабль покидает Палдиски.
+    </p>
+    <p>
+    В 1993 году начинается строительство порта Усть-Луга в Лужской губе с соответствующей инфраструктурой. Главный аргумент - короткий, в сравнении с портом Санкт-Петербург, период ледовой проводки.
+    Таким образом, имеющееся готовое, при советской власти было невостребованно и срочно потребовалось, пусть в урезанном виде, как только этой власти пришел конец. Но появилась другая, для которой главным стимулом являются деньги.
+    </p>
+    <div class="img-center">
+        <img src="images/rail.JPG" width="500" 
+             alt="Современная железная дорога"
+             title="Прямо дороженька: насыпи узкие,
+             Столбики, рельсы, мосты.
+             А по бокам-то всё косточки русские…
+             Сколько их! Ванечка, знаешь ли ты?">>
+        <div class="caption"></div>
+    </div>
+    <p>   
+        И еще.
+        В районе есть замечательная традиция  - здороваться. Друг другу желают здоровья  совершенно незнакомые люди. Эта манера привита с младенчества. Как в Европе.
+           Так и на железной дороге. Мчится огромный состав, за ним пурга вьется. Стоишь один на платформе, поднимаешь руку... и огнедышащий монстр взвизгивает веселым свистком.
+    
+
+
+
+<!--
+<div class="img-center">
+    <img src="images/Danzas.jpg" width="200" 
+         alt="Константин Данзас"
+         title="Константин Данзас">> 
+    <div class="caption">Данзас</div>
+</div>
+
+<p>
+
+</p>
+
+<p>
+    Следующим владельцем был тоже француз по рождению, герой войны 1812 года, генерал от инфантерии
+Федор Филиппович Довре
+</p>
+
+<div class="img-center">
+    <img src="images/Dovre.jpg" width="200"
+         alt="Фёдор Довре"
+         title="Федор Довре">
+    <div class="caption">Довре</div>
+</div>
+
+<p>
+    Хозяева менялись дальше, но похоже, дом оригинальный, постройки конца 18-го века, напоминает дом Пушкина в Михайловском. То, что он сохранился, из разряда чудес. Видел всю нашу кровавую историю: революцию, гражданскую, коллективизацию, голод, оккупацию, освобождение, да мало ли еще... И уцелел. На высоте, на перекрестке дорог.
+</p>
+
+-->
+
+<hr>
+
+<footer>
+© Velezland  
+</footer>
+
+</body>
+</html>
